@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/second"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@id/textView13"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/first"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView13"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#FFEB3B"-->
+    <!--        android:text="TextView"-->
+    <!--        app:layout_constraintEnd_toStartOf="@id/textView10"-->
+    <!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:layout_editor_absoluteY="27dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView10"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="116dp"-->
+    <!--        android:background="#F44336"-->
+    <!--        android:text="TextView"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/textView11"-->
+
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/textView3"-->
+    <!--        tools:layout_editor_absoluteY="27dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView11"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#4CAF50"-->
+    <!--        android:text="TextView"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/textView10"-->
+    <!--        app:layout_constraintStart_toStartOf=""-->
+    <!--        tools:layout_editor_absoluteY="27dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
